@@ -28,5 +28,7 @@ getwd()
 
 # Factsheet to get tables
 library(tabulizer)
+Sys.setenv(JAVA_HOME='C:\\Program Files\\Java\\jdk-11.0.4')
+library(rJava)
 location <- "E:/01.r_projects/05.web_scraping/pdf_input/(lux)-asian-fund_eur_a_acc_ie_factsheet_eng_pe_lu1670618187.pdf"
 factsheet <- extract_tab
